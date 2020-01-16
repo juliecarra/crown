@@ -1,0 +1,90 @@
+.RoomInfos {
+  font-family: "Playfair Display", serif;
+  background-color: #fff;
+
+  &__wrapper {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row: auto auto;
+  }
+
+  &__col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 2px solid #a08e55;
+    margin-top: -6px;
+  }
+
+  .RoomInfos__h1 {
+    font-size: 2em;
+  }
+  .RoomInfos__h2 {
+    font-size: 1.1em;
+    width: 462px;
+    color: #2f2424;
+  }
+
+  .RoomInfos__h4 {
+    font-size: 2em;
+
+    color: #a08e55;
+  }
+
+  .RoomInfos__features {
+    background-color: #fff;
+    color: #2f2424;
+  }
+
+  .RoomInfos__image img {
+    width: 100vw;
+  }
+  &__list {
+    font-size: 1.1em;
+    color: #2f2424;
+    padding-left: 70px;
+  }
+
+  &__container {
+    background-color: #f8f7f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .RoomInfos {
+    width: 100vh;
+    font-size-adjust: 100%;
+
+    &__col {
+      border-bottom: 2px solid #a08e55;
+    }
+  }
+  .RoomInfos .RoomInfos__image img {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 568px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .RoomInfos {
+    width: 122vw;
+
+    &__col {
+      border-bottom: 2px solid #a08e55;
+    }
+  }
+  .RoomInfos .RoomInfos__image img {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1024px) {
+  .RoomInfos__col {
+    border-bottom: 2px solid #a08e55;
+  }
+}

@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+
+.Footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -100px;
+  align-items: center;
+  font-family: "Playfair Display", serif;
+
+  &__title {
+    font-size: 2em;
+    color: #a08e55;
+    justify-content: center;
+    display: flex;
+  }
+  &__data {
+    font-size: 1em;
+    color: #2f2424;
+    justify-content: center;
+    display: flex;
+  }
+  &__logo {
+    // padding: 60px 0;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: -36px;
+
+    i {
+      margin-bottom: 29px;
+      margin: 0px 20px;
+      color: #2f2424;
+      cursor: pointer;
+
+      &:hover {
+        color: #a08e55;
+      }
+    }
+  }
+  .fab.fa-facebook {
+    margin-bottom: 29px;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .Footer {
+    width: 100vh;
+    font-size-adjust: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  .Footer__logo {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1024px) {
+  .Footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  .Footer__logo {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (min-device-width: 568px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .Footer {
+    width: 122vw;
+  }
+  .Footer__logo {
+    margin-top: 0px;
+  }
+}

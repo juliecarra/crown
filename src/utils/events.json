@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Meetings",
+    "description": "Meetings reach another level at Crown. Whether it’s a boardroom session in one of our newly renovated salons or hosting a conference in our elegant, garden-themed ballroom. Our talented team will take care of all the essential details, helping your attendees stay focused and productive.",
+    "image": "/images/Meetings.jpg",
+    "titleInfos": "Extraordinary experiences",
+    "details1": "Our wonderful hotel offer the perfect venue for any event, be it a conference, board meeting or lavish employee incentive. Our combination of elegance, luxury and cutting-edge technology in some of the world’s most exciting cities delivers extra-special experiences and memories to last a lifetime.",
+    "titleInfos2": "Let us take care of you",
+    "details2": "Our stunning hotel are proud of delivering extraordinary standards of guest care. Group bookings and special group rates are available throughout the year, and your guests will enjoy an unforgettable experience in the hands of our professional and caring teams."
+  },
+  {
+    "id": 2,
+    "name": "Weddings",
+    "description": "There’s nothing like the warm delight of a wedding. The excitement, the planning, the dress… That last night before the big day when everything shimmers with anticipation, and then the day arrives in a whirlwind of romance, friends and incredible memories.",
+    "image": "/images/Weddings.jpg",
+    "titleInfos": "Your wedding at Crown",
+    "details1": "Create a world of romance with an unforgettable wedding at Crown. From breathtaking function rooms to inspiring cuisine to eye-catching floral arrangements, every event surrounding your big day will be picture-perfect.",
+    "titleInfos2": " Exceptional Venues",
+    "details2": "Our vast event space encompasses everything from beautifully appointed private salons with courtyard access to an ornate, high-ceilinged ballroom, all with dedicated pre-function areas for welcoming guests or hosting receptions."
+  },
+  {
+    "id": 3,
+    "name": "Cinema",
+    "description": "Our in-house movie theatre makes Crown an outstanding venue for meetings and events with a creative focus.",
+    "image": "/images/Cinema.jpg",
+    "titleInfos": "Movie theatre",
+    "details1": "This private cinema room is ideal for all sorts of gatherings, from company presentations, board meetings or team activity days, to product launches, premieres, and press conferences.",
+    "titleInfos2": "Outstanding Rooms",
+    "details2": "With 99 luxurious leather seats and state-of-the-art technology including 35mm and 3D, Crown Cinema is considered one of the most modern screening rooms in Europe."
+  }
+]

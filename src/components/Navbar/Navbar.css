@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+
+.Nav {
+  font-family: "Playfair Display", serif;
+}
+
+a.navbar-item:hover {
+  color: #2f2424;
+}
+.navbar-item {
+  color: #a08e55;
+}
+
+.navbar-item:hover {
+  color: #2f2424;
+}
+
+.navbar-item img {
+  max-height: 2.75rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .navbar-menu.is-active {
+    width: 377px;
+    margin-left: 30px;
+    box-shadow: none;
+  }
+}

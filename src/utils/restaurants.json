@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Ramsey",
+    "description": "Each dish expresses the truth of the product around which it is built. This quest for genuine flavour is carried out by the cook and farmer together with respect for the planet and health.",
+    "capacity": 4,
+    "price": "130 EUR per person",
+    "priceBill": 130,
+    "image": "/images/HomeRestaurant.jpg",
+    "openingHours": [
+      "Breakfast: Monday to Saturday: 8am-11.30am",
+      "Lunch: Monday to Saturday: 12–2.30pm",
+      "Dinner: Monday to Saturday: 7 – 10.30pm"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Crown",
+    "description": "A unique place with a singular and elegant spirit, as well as a cosy and welcoming hideaway. Restaurant Crown creates a contemporary dialogue between the traditional Parisian classics and the Mediterranean flavourful cuisine.",
+    "capacity": 4,
+    "price": "130 EUR per person",
+    "priceBill": 130,
+    "image": "/images/Restaur.jpg",
+    "openingHours": [
+      "Breakfast: Monday to Saturday: 8am-11.30am",
+      "Lunch: Monday to Saturday: 12–2.30pm",
+      "Dinner: Monday to Saturday: 7 – 10.30pm"
+    ]
+  }
+]

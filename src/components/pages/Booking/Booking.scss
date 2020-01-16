@@ -1,0 +1,213 @@
+$border: #a08e55;
+$border-focus: #2f2424;
+$brand-color: #a08e55;
+$booking-green: #bdcc00;
+$asphalt: #a08e55;
+$pad: 10px;
+
+.Booking {
+  font-family: "Playfair Display", serif;
+}
+header,
+form {
+  padding: 4em 10%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+h2.heading {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: left;
+  color: $asphalt;
+  border-bottom: 1px solid $asphalt;
+  padding-bottom: 3px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  text-align: left;
+  position: relative;
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="date"],
+  input[type="tel"],
+  textarea,
+  button,
+  select {
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid $border;
+    width: 100%;
+    margin-bottom: 18px;
+    color: #888;
+    font-family: "Lato", "sans-serif";
+    font-size: 16px;
+    font-weight: 300;
+
+    &:focus,
+    &:hover {
+      outline: none;
+      border-color: $border-focus;
+      + label {
+        color: $booking-green;
+        cursor: text;
+      }
+    }
+  }
+}
+
+.grid {
+  background: white;
+  //margin: 0 0 $pad 0;
+
+  &:after {
+    /* Or @extend clearfix */
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+[class*="col-"] {
+  float: left;
+  padding-right: $pad;
+  .grid &:last-of-type {
+    padding-right: 0;
+  }
+}
+.col-2-3 {
+  width: 66.66%;
+}
+.col-1-3 {
+  width: 33.33%;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #2f2424;
+}
+
+span {
+  color: #2f2424;
+}
+
+table {
+  border: 1px solid #2f2424;
+  tbody {
+    background-color: #a08e55;
+  }
+  td,
+  th {
+    border: 1px solid #2f2424;
+  }
+
+  tbody tr:last-child td,
+  tbody tr:last-child th {
+    text-align: center;
+  }
+
+  thead th {
+    color: #a08e55;
+    text-transform: uppercase;
+    border: 1px solid #2f2424;
+  }
+
+  td {
+    color: #2f2424;
+    text-transform: uppercase;
+  }
+}
+
+.Booking__link {
+  display: flex;
+  justify-content: center;
+  background-color: #a08e55;
+  color: #fff;
+  padding: 10px;
+  width: 200px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-family: "Playfair Display", serif;
+  font-size: 1em;
+  color: #fff;
+  cursor: pointer;
+
+  &:hover {
+    color: $border-focus;
+  }
+}
+
+#cardNumber,
+#expiryDate,
+#cvc {
+  font-family: "Playfair Display", serif;
+}
+
+.BookingRestaurant {
+  width: 100vw;
+}
+
+.BookingRestaurant img {
+  width: 100vw;
+}
+.Booking img {
+  width: 100vw;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .Booking {
+    width: 104vh;
+    font-size-adjust: 100%;
+  }
+  h2.heading {
+    width: 100%;
+  }
+
+  .Booking__table {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Booking img {
+    display: block;
+    width: 100%;
+  }
+}
+
+.error {
+  color: crimson;
+}
+
+@media only screen and (min-device-width: 568px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .Booking {
+    width: 122vw;
+  }
+
+  h2.heading {
+    width: 100%;
+  }
+
+  .Booking img {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 504px) {
+  .Booking__table {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .Booking img {
+    display: block;
+    width: 100%;
+  }
+}

@@ -1,0 +1,102 @@
+.Home6 {
+  font-family: "Playfair Display", serif;
+  margin-top: -6px;
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 34% 34% 34%;
+  }
+
+  &__box {
+    display: flex;
+
+    color: #aaa;
+  }
+
+  .packages {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("/images/HomePackages.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+  }
+
+  .services {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("/images/HomeServices.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+  }
+
+  .events {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("/images/HomeEvents.png");
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+  }
+
+  h1 {
+    color: #fff;
+    font-size: 2em;
+
+    display: flex;
+    align-items: center;
+  }
+
+  a {
+    display: flex;
+
+    &:hover {
+      text-decoration: underline;
+      color: #fff;
+    }
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .Home6 {
+    width: 100vh;
+    font-size-adjust: 100%;
+    margin-top: -10px;
+  }
+  .Home6__wrapper {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 568px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .Home6 {
+    width: 126vw;
+  }
+  .Home6_wrapper {
+    display: block;
+    width: 100%;
+  }
+  .Home6 .services {
+    height: 100vh;
+  }
+
+  .Home6 .packages {
+    height: 100vh;
+  }
+
+  .Home6 .events {
+    height: 100vh;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1024px) {
+  .Home6__wrapper {
+    display: block;
+    width: 100%;
+  }
+}

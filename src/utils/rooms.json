@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "name": "Superior Room",
+    "description": "Intimate and ideal for two, Superior Rooms promise an unforgettable stay. Marble fireplaces, elaborate mirrors, precious fabrics and moldings find an echo in spacious bathrooms with finely worked fittings. These rooms take on the air of an elegant 18th-century home, where past and present meet with style and glamour.",
+    "capacity": 2,
+    "price": "Rates from 1000 (EUR) per night",
+    "priceBill": 1000,
+    "size": "35m² / 375 sq. ft.",
+    "image": "/images/Superior.jpg",
+    "extras": [
+      "Queen-size bed or twin beds (or cot available)",
+      "Large flatscreen TV",
+      "Complimentary Wi-Fi",
+      "Study area",
+      "Video games and Apple TV",
+      "Unpacking and packing service",
+      "Complimentary seasonal fruit and mineral water"
+    ]
+  },
+
+  {
+    "id": 2,
+    "name": "Executive Room",
+    "description": "Spacious, bright and extremely refined, Executive Rooms express quintessence of Parisian chic. Around a majestic king size canopy bed is an eloquent array summarizing the French art of living: a period desk, a velvet bergère armchair, a generous fireplace and, from the window, a view over the rooftops of Paris.",
+    "capacity": 2,
+    "price": "Rates from 1100 (EUR) per night",
+    "priceBill": 1100,
+    "size": "40m² / 430 sq. ft.",
+    "image": "/images/Executive.jpg",
+    "extras": [
+      "King-size or twin beds (additional bed or cot available)",
+      "Large flat-screen TV",
+      "Complimentary Wi-Fi",
+      "Study area",
+      "Video games and Apple TV",
+      "Unpacking and packing service",
+      "Complimentary seasonal fruit and mineral water"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Deluxe Room",
+    "description": "Each Deluxe room is different, yet each offers the refinement and ideal proportions that define the French capital in its noblest form. A canopy bed, prints from the Grand Siècle, a marble fireplace, moldings, fine woodwork and crystal chandeliers invite every guest to feel like royalty.",
+    "capacity": 2,
+    "price": "Rates from 1200 (EUR) per night",
+    "priceBill": 1200,
+    "size": "45m² / 480 sq. ft.",
+    "image": "/images/Deluxe.jpg",
+    "extras": [
+      "King-size or twin beds (additional bed or cot available)",
+      "Complimentary Wi-Fi",
+      "Study area",
+      "Video games and Apple TV",
+      "Large flatscreen TV",
+      "Unpacking and packing service",
+      "Complimentary seasonal fruit and mineral water"
+    ]
+  }
+]

@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+
+.HomeCarousel {
+  font-family: "Playfair Display", serif;
+  background-color: #f8f7f4;
+  align-self: center;
+
+  &__stars {
+    display: flex;
+    justify-content: center;
+    color: #a08e55;
+  }
+  h3 {
+    display: flex;
+    justify-content: center;
+    color: #2f2424;
+    font-size: 1.2em;
+    padding: 100px;
+    width: 818px;
+  }
+
+  p {
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    color: #a08e55;
+  }
+
+  .HomeCarousel__image {
+    display: flex;
+    justify-content: center;
+  }
+
+  // .slick-slider {
+  //   position: relative;
+  // }
+
+  .HomeCarousel__commentary {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.slick-arrow {
+  position: relative;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .HomeCarousel {
+    width: 100vh;
+    font-size-adjust: 100%;
+  }
+  // .slick-slider {
+  //   position: inherit;
+  // }
+  .slick-prev,
+  .slick-next {
+    display: none;
+  }
+
+  button.slick-arrow.slick-next::before {
+    display: none;
+  }
+  .HomeCarousel img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media only screen and (min-device-width: 568px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .HomeCarousel {
+    width: 126vw;
+  }
+
+  // .slick-slider {
+  //   position: inherit;
+  // }
+  .slick-prev,
+  .slick-next {
+    display: none;
+  }
+
+  button.slick-arrow.slick-next::before {
+    display: none;
+  }
+  .HomeCarousel img {
+    width: 50px;
+    height: 50px;
+  }
+}

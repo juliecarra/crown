@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "My Body Wellbeing",
+    "description": "30-min scrub followed by 1-hour massage.",
+    "duration": "90min",
+    "price": "310 EUR per person",
+    "priceBill": 310,
+    "image": "/images/spa1.png"
+  },
+  {
+    "id": 2,
+    "name": "Me and My Blend",
+    "description": "Massage followed by the 1-hour My Blend Youth Synergy treatment.",
+    "duration": "2 hours",
+    "price": "360 EUR per person",
+    "priceBill": 360,
+    "image": "/images/spa2.png"
+  },
+  {
+    "id": 3,
+    "name": "Youth Synergy",
+    "description": "Skin diagnosis and treatment for total relaxation and visible results.",
+    "duration": "2 hours",
+    "price": "290 EUR per person",
+    "priceBill": 290,
+    "image": "/images/spa4.png"
+  }
+]

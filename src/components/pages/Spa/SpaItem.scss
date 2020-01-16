@@ -1,0 +1,42 @@
+.SpaItem {
+  background-color: #f8f7f4;
+  font-family: "Playfair Display", serif;
+}
+
+h1.heading {
+  color: #a08e55;
+  display: flex;
+  justify-content: flex-start;
+}
+
+h2 {
+  color: #2f2424;
+  font-size: 1em;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.SpaItem__description {
+  width: 602px;
+}
+
+.SpaItem h3 {
+  font-size: 1.5em;
+}
+.SpaItem__p,
+.SpaItem__a {
+  color: #2f2424;
+  border: 1px solid #a08e55;
+  width: 50%;
+  height: 50px;
+}
+
+.SpaItem__a,
+.SpaItem__a:hover {
+  color: #fff;
+  background-color: #a08e55;
+}
+
+.SpaItem__a:hover {
+  color: #2f2424;
+}

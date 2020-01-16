@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "name": "Deluxe Junior Suite",
+    "description": "From the moment you enter, Deluxe Junior Suites offer a wonderful sensation of spaciousness within a unified volume with a clearly defined bedroom and a typically French-style living area. A king-size bed appears all the more majestic beneath an artisanally crafted canopy.",
+    "capacity": 4,
+    "price": "Rates from 1900 (EUR) per night",
+    "priceBill": 1900,
+    "size": "65m² / 700 sq. ft.",
+    "image": "/images/DeluxeSuite.jpg",
+    "extras": [
+      "King-size or twin beds (additional bed or cot available)",
+      "Large flat-screen TV",
+      "Complimentary Wi-Fi",
+      "Study area",
+      "Video games and Apple TV upon request",
+      "Unpacking and packing service",
+      "Complimentary seasonal fruit and mineral water",
+      "Bathroom in italian marble"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Executive Suite",
+    "description": "The Executive Suites have stylish nobility as well as that extra little touch of soul that belongs to the French capital alone. Bathed in natural light, they all accommodate the art of entertaining with a separate living area that is independent from the bedroom.",
+    "capacity": 4,
+    "price": "Rates from 2300 (EUR) per night",
+    "priceBill": 2300,
+    "size": "75m² / 810 sq. ft.",
+    "image": "/images/ExecutiveSuite.jpg",
+    "extras": [
+      "King-size or twin beds (additional bed or cot available)",
+      "Large flat-screen TV",
+      "Complimentary Wi-Fi",
+      "Study area",
+      "Video games and Apple TV upon request",
+      "Unpacking and packing service",
+      "Complimentary seasonal fruit and mineral water",
+      "Bathroom in italian marble",
+      "Luxurious sitting area"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Deluxe Suite",
+    "description": "Vast with an aristocratic air, Deluxe Suites all have a separate entrance. A beautiful, spacious living space comprises a living room that flows elegantly to the dining room. In some rooms, rounded volumes enhance the charm of a historical experience.",
+    "capacity": 4,
+    "price": "Rates from 2800 (EUR) per night",
+    "priceBill": 2800,
+    "size": "90m² / 970 sq. ft.",
+    "image": "/images/DeluxeDeluxe.jpg",
+    "extras": [
+      "King-size or twin beds (additional bed or cot available)",
+      "Large flat-screen TV",
+      "Complimentary Wi-Fi",
+      "Study area",
+      "Video games and Apple TV upon request",
+      "Unpacking and packing service",
+      "Complimentary seasonal fruit and mineral water",
+      "Bathroom in italian marble",
+      "Luxurious sitting area"
+    ]
+  }
+]

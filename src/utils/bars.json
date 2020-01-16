@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Hemingway",
+    "description": "The famous bar of a thousand stories. The place for discerning Parisians to settle down amongst the deep leather armchairs and discreet conversation and lose themselves in our nightly live jazz.",
+    "image": "/images/BarOne.jpg",
+    "openingHours": "daily: 12pm – 1am"
+  },
+  {
+    "id": 2,
+    "name": "Proust",
+    "description": "Here, dishes are made for sharing, at lunch or dinner, with a glass of exceptional wine. Decorated with elegant woodwork, the bar welcomes guests for breakfast starting at 8am and remains open for a nightcap until 2am.",
+    "image": "/images/BarTwo.jpg",
+    "openingHours": "daily: 12pm – 1am"
+  }
+]

@@ -1,0 +1,69 @@
+.react-confirm-alert-body h1 {
+  font-family: "Playfair Display", serif;
+}
+
+.react-confirm-alert-body {
+  font-family: "Playfair Display", serif;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 1023px) and (orientation: portrait) {
+  .BookingRestaurant {
+    display: grid;
+  }
+
+  .react-confirm-alert-body {
+    font-family: "Playfair Display", serif;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1025px) and (orientation: portrait) {
+  .BookingRestaurant img {
+    width: 139vw;
+    max-width: inherit;
+  }
+  .react-confirm-alert-body {
+    font-family: "Playfair Display", serif;
+  }
+}
+
+@media only screen and (min-device-width: 568px) and (max-device-width: 1023px) and (orientation: landscape) {
+  .BookingRestaurant {
+    display: grid;
+  }
+  .react-confirm-alert-body {
+    font-family: "Playfair Display", serif;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1365px) and (orientation: landscape) {
+  .BookingRestaurant img {
+    width: 122vw;
+    max-width: inherit;
+  }
+  .react-confirm-alert-body {
+    font-family: "Playfair Display", serif;
+  }
+}
+
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1367px) and (orientation: landscape) {
+  .BookingRestaurant img {
+    width: 100vw;
+    max-width: inherit;
+  }
+  .react-confirm-alert-body {
+    font-family: "Playfair Display", serif;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .BookingRestaurant img {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 568px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .BookingRestaurant img {
+    display: block;
+    width: 100%;
+  }
+}
